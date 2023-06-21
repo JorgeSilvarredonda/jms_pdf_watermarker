@@ -12,4 +12,4 @@ A simple software to watermark pdfs.
   - Indicate where the new .pdf file is going to be located
   - Press "Merge" Thats it!
 
-If you notice any bug, please contact me on Discord! (My id: jmsfla)
+If you notice any bug, please contact me on Discord! (My id: **jmsfla**)
