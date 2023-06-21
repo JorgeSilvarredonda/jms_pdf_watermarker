@@ -33,14 +33,13 @@ class WatermarkApp(App):
         self.popup = Popup(title='Select a file', content=filechooser)
         self.popup.open()
 
-
     def load_file(self, instance, selection, touch):
         if selection and selection[0].endswith('.pdf'):
             self.file_name = selection[0]
             self.status_label.text = f'Selected: {os.path.basename(self.file_name)}'
         else:
             self.status_label.text = 'Please select a .pdf file'
-        #sself.popup.dismiss()
+        self.popup.dismiss()
 
     def add_watermark(self, instance):
         if not self.file_name:
