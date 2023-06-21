@@ -3,7 +3,7 @@
 A simple software to watermark pdfs.
 
 **Dependencies:**
-  - tkinter
+  - kivy
   - PdfMergr
 
 **Instructions:**
