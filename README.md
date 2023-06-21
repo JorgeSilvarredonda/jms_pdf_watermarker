@@ -4,7 +4,7 @@ A simple software to watermark pdfs.
 
 **Dependencies:**
   - kivy
-  - PdfMergr
+  - PyPDF2
 
 **Instructions:**
   - Just open the program
